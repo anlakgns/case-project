@@ -1,6 +1,5 @@
-**Notes To Reviewer**
+## **Notes To Reviewer**
 
--
 - Global styles are effectively use to prevent unnecessary creation of common component.
 - React memo, useCallback and FlatList are used to improve performance and optimization.
 - The api provided in case study are not designed well so there are some limitations and bad practices in project, please ask before you make a decision for anything looks weird probably because of api structure.
