@@ -11,6 +11,8 @@
 - I would like to create a "CountryDetail" screen to but the country data are not consistent and that makes the screen more prone to bugs. Handling all inconsistency make the code less readableable for that component so i didn't prefer but if you wish to see, just tell me.
 - For country listing and searching there are some of room to improve in terms of performance/experience but i try to stick to the case study requirements.
 
+For any question or any request for futher development just contact with me : anilakgunes@gmail.com
+
 ## **Folder Structure**
 
 **components**
