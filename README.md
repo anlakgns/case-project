@@ -2,7 +2,7 @@
 
 - Global styles are effectively use to prevent unnecessary creation of common component.
 - React memo, useCallback and FlatList are used to improve performance and optimization.
-- The api provided in case study are not designed well so there are some limitations and bad practices in project, please ask before you make a decision for anything looks weird probably because of api structure.
+- The api provided in case study are not designed well so there are some limitations and bad practices in project, please ask before you make a decision for anything looks weird, probably that resulted from api structure.
 - All index file is used as an exit from directory to shorten the import path in files.
 - I couldn't use apollo & grapqhl because of api that is designed as Rest. I found another api that supports graphql but it doesn't have search functionality, if wish i can make use of that api to use apollo or graphql too.
 - I didn't use a formik, yup or of another form & validation library because this project is tiny. I just use regex for email validation. If you would like to see, just tell me i can implement more robost form & validation structure.
