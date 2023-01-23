@@ -89,6 +89,7 @@ export const Countries: React.FC<CountriesScreenProp> = ({ navigation }) => {
         onChangeText={setSearchTerm}
         placeholder="example: Germany"
         label="Country Name"
+        accessibilityLabel="Country Name"
         right={
           <TextInput.Icon
             style={styles.clearIcon}

@@ -28,4 +28,6 @@ test("check search", () => {
 
   expect(screen.getByText("Countries List")).toBeOnTheScreen();
   expect(screen.getByText("Number of countries : 0")).toBeOnTheScreen();
+
+  // I don't know much about mock server and API related testing in this enviroment. React Native Testing Lİbrary are not much helpful in that case.
 });
