@@ -1,3 +1,8 @@
+## **Setup**
+- npm install (to install all packages)
+- npx expo start (to run the project)
+
+
 ## **Notes To Reviewer**
 
 - Global styles are effectively used to prevent the unnecessary creation of common components.
@@ -10,6 +15,7 @@
 - I couldn't use the type system for API because the data is inconsistent in terms of type structure.
 - I would like to create a "CountryDetail" screen but the country data are not consistent and that makes the screen more prone to bugs. Handling all inconsistency makes the code less readable for that component so I didn't prefer but if you wish to see it, just tell me.
 - For a country listing and searching there is some room to improve in terms of performance/experience but I try to stick to the case study requirements.
+- I am not much qualified in tests, i didn't have opportunity to write test much before but i try to do my best. 
 
 For any questions or any request for further development just contact me: anilakgunes@gmail.com
 
