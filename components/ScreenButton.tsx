@@ -14,6 +14,7 @@ export const ScreenButton: React.FC<ScreenButtonProps> = ({
   return (
     <TouchableOpacity
       {...rest}
+      accessibilityLabel="Next Button"
       style={[
         GlobalStyles.screenButton,
         rest.disabled && GlobalStyles.disabledButton,

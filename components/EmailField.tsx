@@ -38,6 +38,7 @@ export const EmailField: React.FC<EmailFieldProps> = ({
         style={[GlobalStyles.input, style]}
         mode="outlined"
         label="Email"
+        accessibilityLabel="Email"
         placeholder="example@example.com"
         textContentType={"emailAddress"}
         autoCapitalize="none"
