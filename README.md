@@ -14,7 +14,8 @@
 - Responsiveness is considered while developing to some degree.
 - I couldn't use the type system for API because the data is inconsistent in terms of type structure.
 - I would like to create a "CountryDetail" screen but the country data are not consistent and that makes the screen more prone to bugs. Handling all inconsistency makes the code less readable for that component so I didn't prefer but if you wish to see it, just tell me.
-- For a country listing and searching there is some room to improve in terms of performance/experience but I try to stick to the case study requirements.
+- No pagination available in API so fetch all countries with selected fields to decrease latency.
+- For a country listing and searching there is some room to improve in terms of performance/experience but I try to stick to the case study requirements. (UI pagination, caching, using better listing component/library)
 - I am not much qualified in tests, i didn't have opportunity to write test much before but i did what i can do by checking testing library documents. 
 
 For any questions or any request for further development just contact me: anilakgunes@gmail.com
